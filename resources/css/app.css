@@ -1,0 +1,85 @@
+@import '~bootstrap/dist/css/bootstrap';
+
+.no-underline {
+    text-decoration: none;
+}
+
+body {
+    background-color: #f8f8f8;
+    letter-spacing: 1px;
+}
+
+.search{
+    border-radius: 3vh;
+    transition: all 0.3s ease-in-out;
+}
+
+.lupa{
+    border-radius: 3vh; 
+    color:#eceff1;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.up-page{
+    font-size: 4vh;
+    padding: 1vh;
+    border: 2px solid #394e70;
+    color: #ffffff;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    background-color: #394e70;
+}
+
+.cool-blue {
+    background-color: #394e70;
+}
+
+.cool-blue:hover {
+    background-color: #8196b8;
+}
+
+.blue-body {
+    background-color: #394e70;
+    border-radius: 20px;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+}
+
+.btn.btn-outline-info {
+    border-color: #394e70;
+    color: #394e70;
+}
+
+.btn.btn-outline-info:hover {
+    background-color: #8196b8;
+}
+
+.category-list .card-body a {
+    text-decoration: none;
+    color: black;
+}
+
+.category-list .list-group-item:hover {
+    background-color: #8196b8;
+}
+
+.categories {
+    border: 3px solid #394e70;
+}
+
+footer{
+    letter-spacing: 1px;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.message-space {
+    border-radius: 20px;
+}
